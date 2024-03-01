@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Concert+One&family=Francois+One&family=Lilita+One&family=Patua+One&display=swap');
+
+
+body {  
+       background-image: url(img/pexels-photo-164634.jpeg);
+       background-size: cover;
+}
+
+
+h1 { font-family: Bebas Neue;
+    font-size: 59px;
+    color: rgb(255, 255, 255);
+    margin: 50px;
+    margin-left: 90px;
+    text-decoration: underline;
+    margin-top: -100px;
+   }
+
+.pr { 
+    font-family: Bebas Neue;
+    color: rgb(7, 5, 5);
+    font-size: 30px;
+    margin-top: -170px;
+    margin-left: 1500px;
+}
+
+img {
+    width: 90px;
+    margin-top: 30px;
+    border-radius: 60px;
+    margin-left: 1500px;
+}
+
+.img {
+      width: 420px;
+      border: solid;
+      border-radius: 0px;
+      transition: 1.5s ease;
+      margin-left: 100px;
+      margin-top: 150px;
+}
+
+.img:hover { 
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: contrast(80%);
+    color: rgb(255, 255, 255);
+}
+
+.src {
+      width: 400px;
+      border: solid;
+      border-radius: 0px;
+      transition: 1.5s ease;
+      margin-left: 100px;
+      margin-top: 150px;
+}
+
+.src:hover{ 
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: contrast(80%);
+    color: rgb(255, 255, 255);
+}
+
+.lulini {
+      width: 420px;
+      border-radius: 0px;
+      transition: 1.5s ease;
+      margin-left: 100px;
+      margin-top: 100px;
+}
+
+.lulini:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: contrast(80%);
+    color: rgb(255, 255, 255);
+}
+
+.transport {
+            font-size: 40px;
+            margin-top: -55px;
+            margin-left: 130px;
+            
+}
+
+.car {
+      color: black;
+      margin-top: -540px;
+      font-size: 40px;
+      margin-left: 750px;
+}

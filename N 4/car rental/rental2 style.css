@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-image: url(./free-photo-of-black-mercedes-riding-on-a-road.jpeg);
+    background-size: cover;
+}
+
+form {
+  margin-left: 560px;
+  margin-top: 160px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family: Bebas Neue;
+  border: solid;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.777);
+  border-color: rgba(0, 0, 0, 0.777);
+  border-radius: 20px;
+  font-family: Poppins;
+
+}
+
+.button {
+     margin-top: 40px;
+     margin-left: 150px;
+     border: solid;
+     border-radius: 20px;
+     border-color: rgb(129, 11, 11);
+     width: 90px;
+     height: 30px;
+     background-color: rgb(129, 11, 11);
+     transition: 1.5s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: contrast(80%);
+    color: rgb(255, 255, 255);
+}
+
+.h1 {
+    color: rgb(129, 11, 11);
+    font-family: Poppins;
+    font-size:30px ;
+    margin-left:140px;
+}
+
+.Name {
+    margin-left: 25px;
+    border-radius: 20px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.673);
+
+}
+
+.text {
+    margin-left: 58px;
+    color: rgb(129, 11, 11);
+    font-size: 18px;
+}
+
+.name{
+    margin-left:10px ;
+    color:rgb(129, 11, 11);
+    font-size: 18px;
+
+}
+
+.Last {
+    margin-left: 25px;
+    border-radius: 20px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.673);
+}
+
+.time {
+    margin-left: 65px;
+    color:rgb(129, 11, 11);
+    font-size: 18px;
+
+}
+
+.Time {
+    margin-left: 20px;
+    border-radius: 20px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.673);
+}
+
+.Date {
+    margin-left: 65px;
+    color:rgb(129, 11, 11);
+    font-size: 18px;
+}
+
+.date {
+    margin-left: 20px;
+    border-radius: 20px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.673);
+}

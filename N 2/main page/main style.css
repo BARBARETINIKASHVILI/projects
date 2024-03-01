@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Poppins:wght@200;400&display=swap');
+
+input {
+    width:14%;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 75px;
+    background-color: rgb(167, 167, 167);
+    margin-top: -40px;
+    position: absolute;
+    border: none;
+    outline: none;
+    color: rgb(226, 226, 226);
+    padding:10px ;
+    background-color: white;
+}
+
+img {
+    width: 45px;
+}
+
+.mind {
+    color: rgb(211, 211, 211);
+    background-color: rgb(211, 211, 211);
+    position: absolute;
+    margin-left: 500px;
+    width: 28%;
+    top: 56%;
+}
+
+.me {
+    position: absolute;
+    margin-left: 450px;
+    border-radius: 25px;
+    top: 50%;
+}
+
+.video {
+    width: 30px;
+    height: 30px;
+    top: 60%;
+    left: 30%;
+    position: absolute;
+}
+
+.live {
+    font-family: Poppins;
+    left: 33%;
+    position: absolute;
+    top: 58.5%;
+}
+
+.gallery {
+    width: 30px;
+    height: 30px;
+    top: 60%;
+    position: absolute;
+    left: 40%;
+}
+
+.Photo {
+    font-family: Poppins;
+    left: 43%;
+    position: absolute;
+    top: 58.5%; 
+
+}
+
+.happiness {
+    width: 30px;
+    height: 30px;
+    top: 60%;
+    position: absolute;
+    left: 51%;
+}
+
+.Feeling {
+    font-family: Poppins;
+    left: 54%;
+    position: absolute;
+    top: 58.5%; 
+
+}
+
+.home {
+    width: 25px;
+    height: 24px;
+    top: 3%;
+    position: absolute;
+    left: 38%;
+}
+
+.people {
+    width: 25px;
+    height: 24px;
+    top: 3%;
+    position: absolute;
+    left: 45%;
+}
+
+.user {
+    width: 25px;
+    height: 24px;
+    top: 3%;
+    position: absolute;
+    left: 53%;
+}
+
+
+.apps {
+    width: 28px;
+    height: 25px;
+    top: 3%;
+    position: absolute;
+    left: 80%;
+}
+
+.messenger {
+    width: 28px;
+    height: 25px;
+    top: 3%;
+    position: absolute;
+    left: 83%;
+}
+
+.bell {
+    width: 28px;
+    height: 25px;
+    top: 3%;
+    position: absolute;
+    left: 86%;
+}
+
+.my {
+    border-radius: 40px;
+    top: 2%;
+    position: absolute;
+    left: 90%;
+}
+
+.roses {
+    border-radius: 15px;
+    width: 10%;
+    height: 35%;
+    position: absolute;
+    left: 25%;
+    border: solid;
+}
+
+.roses_user {
+   position: absolute;
+   border: solid;
+   border-radius: 40px;
+   width: 25px;
+   border-color: blue;
+   top: 80px;
+   left: 25%;
+}
+
+.puppy {
+    position: absolute;
+    border: solid;
+    border-radius: 15px;
+    width: 10%;
+    height: 35%;
+    left: 37%; 
+}
+
+.puppy_user {
+        position: absolute;
+        border: solid;
+        border-radius: 40px;
+        width: 25px;
+        border-color: blue;
+        top: 80px; 
+        left: 37%;
+}
+
+.poem {
+    position: absolute;
+    border: solid;
+    border-radius: 15px;
+    width: 10%;
+    height: 35%;
+    left: 49%; 
+}
+
+.poem_user {
+    position: absolute;
+        border: solid;
+        border-radius: 40px;
+        width: 25px;
+        border-color: blue;
+        top: 80px; 
+        left: 49%
+}
+
+.sunset {
+    position: absolute;
+    border: solid;
+    border-radius: 15px;
+    width: 10%;
+    height: 35%;
+    left: 61%; 
+}
+
+.sunset_user {
+        position: absolute;
+        border: solid;
+        border-radius: 40px;
+        width: 25px;
+        border-color: blue;
+        top: 80px; 
+        left: 61%
+}
