@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3D0000;
+}
+
+.my_img {
+    width: 30%;
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 7px;
+    border-radius: 200px;animation: mymove 5s;
+    animation-name: barbare;
+    animation-duration: 4s;
+    box-shadow:
+    0 0 10px rgb(0, 0, 0),
+    0 0 20px rgb(0, 0, 0),
+    0 0 60px rgb(255, 255, 255);
+    position: absolutle;
+}
+
+.h2 {
+    color: black;
+    font-family: Poppins;
+    padding-left: 35%;
+    position: absolutle;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+b {
+    text-shadow:
+    0 0 10px rgb(0, 0, 0),
+    0 0 20px rgb(255, 255, 255),
+    0 0 60px rgb(255, 255, 255);
+    color: whitesmoke;
+    font-family: Poppins;
+}
+
+.logo{
+    border-radius: 200px;
+    width: 10%;
+    height: 15%;
+    margin-left: 80%;
+    margin-top: -30%;
+    border: solid;
+    border-color: rgba(245, 245, 245, 0.507);
+    box-shadow:
+    0 0 10px rgb(0, 0, 0),
+    0 0 20px rgb(255, 255, 255),
+    0 0 60px rgb(255, 255, 255);
+    color: whitesmoke;
+
+}
+
+#main_nav{
+    padding-left: 150px;
+    padding-top: 150px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    
+    
+
+}
+
+.text {
+    font-size: 35px;
+    padding-right: 300px;
+}
+
+li , ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: Poppins;
+    border-radius: 20px;
+    font-size: 19px;
+    padding-top: 15px ;
+    
+}
+
+.links {
+    display: flex;
+    gap: 100px;
+
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+.h2_text {
+    font-family: Poppins;
+    color: rgb(0, 0, 0);
+    padding-top: 40%;
+    font-size: 30px;
+
+}
+
+.MAIN {
+    color: whitesmoke;
+    border: solid;
+    background-color: rgba(0, 0, 0, 0.616);
+    border-color: rgba(0, 0, 0, 0.559);
+    height: 100px;
+    
+}
+
+@keyframes barbare {
+    0%   {background-color: rgb(0, 0, 0); 
+          border-radius: 120px;}
+    25%  {background-color: rgb(255, 255, 255); 
+          
+          }
+    50%  {background-color: rgba(0, 0, 0, 0.719);
+           }
+    100% {background-color: rgb(255, 255, 255);
+          }
+  }
+
+#mini_leaders{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#main_div {
+    background-color: #000000;
+    margin-top: 100px;
+}
+
+.about {
+    color: whitesmoke;
+    font-size:35px ;
+    font-family: Poppins;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.text {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    
+}
+ 
+.spacecont{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+ul,li{
+    gap:25px;
+}
+
+.img2 {
+    position: absolutle;
+    border-radius: 20px;
+    border:5px solid white;
+
+    
+}
+
+p {
+    font-family: Poppins;
+}
+
+#services{
+    padding: 30px 0;
+  }
+  .services-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 90%;
+    gap: 40px;
+    height: 70%;
+    margin-top: 15%;
+    
+
+}
+.image{
+  width: 190px;
+    
+  }
+  .img{
+    width: 190px;
+  }
+  .services-list div{
+    background-color: #460000;
+    padding: 90px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+    transition: background 0.9s, transform 0.9s;
+    color:#ffffff;
+    margin-left: 5%;
+    
+  }
+  .services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .services-list div:hover{
+    background-color:  rgb(255, 255, 255);
+    transform: translateY(-10px);
+    box-shadow:
+    0 0 10px rgb(0, 0, 0),
+    0 0 20px rgb(0, 0, 0),
+    0 0 60px rgb(255, 255, 255);
+    position: absolutle;
+    color: black;
+    
+  }
+
+  span{
+    color: rgb(10, 117, 26);
+    font-family: Poppins;
+  }
+
+  h2{
+    font-family: Poppins;
+  }
+
+.my_info{
+    color: whitesmoke;
+    font-family: Poppins;
+    text-align: center;
+}
+
+.first_mini{
+    
+    width: 20%;
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 7px;
+    border-radius: 200px;animation: mymove 5s;
+    animation-name: barbare;
+    animation-duration: 4s;
+    box-shadow:
+    0 0 10px rgb(0, 0, 0),
+    0 0 20px rgb(0, 0, 0),
+    0 0 60px rgb(255, 255, 255);
+    
+}
+
+.mini {
+    width: 20px;
+}
+
+.third_div{
+    background-color: #3D0000;
+}
+
+.forth_div{
+    background-color: black;
+}
+
+.form{
+    width: 20%;
+    height: 30%;
+    border: solid;
+    border-color: #3d00007a;
+    background-color: #3d000062;
+    border-radius: 30px;
+    width: 50%;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 10%;
+    box-shadow:
+    0 0 10px rgb(0, 0, 0),
+    0 0 20px rgb(0, 0, 0),
+    0 0 60px rgb(255, 255, 255);
+}
+
+h5{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+input{
+    border-color: rgb(0, 0, 0);
+    border: solid;
+    border-radius:30px;
+    height: 60px;
+    width: 70%;
+    margin-top: 25px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: Poppins;
+    margin-left: 20px;
+    
+}
+
+form{
+    margin-top: 10%;
+    ;
+}
+
+
+
+#main_contact {
+    background-color: black;
+    height: 800px;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    border: solid;
+    border-color: #3D0000;
+    border-radius: 30px;
+    height: 40px;
+    width: 25%;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+
+h3{
+    color: whitesmoke;
+    font-family: Poppins;
+    font-size: 30px;
+    margin-left: 70%;
+    margin-top: -20%;
+}
