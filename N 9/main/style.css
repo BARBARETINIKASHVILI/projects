@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0%;
+
+}
+
+#first{
+    background-image: url(/img/pexels-davidriano-975771.jpg);
+    background-size: cover;
+    height: 705px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.main_nav {
+    display: flex;
+    padding-left: 50px;
+    
+}
+
+.tiger_icon {
+    width: 120px;
+    
+}
+
+.facebook {
+    white-space: 20px;
+}
+
+.first_list {
+    display: flex;
+    list-style-type: none;
+    gap: 90px;
+    font-family: Poppins;
+    padding-top: 35px;
+    margin-left: 20%;
+}
+
+.second {
+    display: flex;
+    gap: 40px;
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 50px;
+    text-shadow:
+    0 0 10px rgb(0, 0, 0),
+    0 0 20px rgb(0, 0, 0),
+    0 0 60px rgb(255, 255, 255);
+}
+
+i {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.second_icon {
+    width: 120px;
+    padding-top: 50px;
+}
+
+.icons{
+    margin-left: 83%;
+    margin-top: -60px;
+    
+}
+
+.icon1{
+   width: 30px;
+   position: absolute;
+   margin-left: 60px;
+}
+
+.icon2 {
+    width: 30px;
+}
+
+#second {
+    background-color: rgb(80, 80, 80);
+    height: 705px;
+    
+}
+
+
+
+.animals {
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.animal1 {
+    width: 20%;
+    margin-left: 15px;
+    margin-top: 50px;
+    border: solid;
+    border-color: whitesmoke;
+    border-width: 10px;
+    box-shadow:
+    0 0 10px rgb(0, 0, 0),
+    0 0 20px rgb(0, 0, 0),
+    0 0 60px rgb(255, 255, 255);
+}
+
+.Toucans {
+    position: absolutle;
+    color: white;
+    font-family: Poppins;
+    margin-top: -100px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+
+.jaguar_img {
+    width: 30%;
+    border: solid;
+    margin-left: 20px;
+    border-width: 5px;
+    box-shadow:
+    0 0 10px rgb(0, 0, 0),
+    0 0 20px rgb(0, 0, 0),
+    0 0 60px rgb(0, 0, 0); 
+}
+
+#jaguarBox {
+    font-size: 7.3px;
+    
+}
+
+.jaguar_text {
+    position: absolute;
+    color: rgb(245, 245, 245);
+    font-family: Poppins;
+    border: solid;
+    background-color: rgba(0, 0, 0, 0.671);
+    margin-top: -21%;
+    margin-left: 25px;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-left: 0px;
+    width: 30%;
+    
+}
+
+
+.zarmaca_img {
+    width: 30%;
+    border: solid;
+    margin-left: 410px;
+    border-width: 5px;
+    margin-top: -5%;
+    box-shadow:
+    0 0 10px rgb(0, 0, 0),
+    0 0 20px rgb(0, 0, 0),
+    0 0 60px rgb(0, 0, 0);
+}
+
+.zarmaca_img:hover {
+    margin-top: -2%;
+    transition: 3s;
+    box-shadow:
+    0 0 10px rgb(0, 0, 0),
+    0 0 20px rgb(0, 0, 0),
+    0 0 60px rgb(0, 0, 0);
+}
+
+
+.SLOTH_text {
+    position: absolute;
+    color: rgb(245, 245, 245);
+    font-family: Poppins;
+    border: solid;
+    background-color: rgba(0, 0, 0, 0.671);
+    margin-top: -10%;
+    border-color: black;
+    border-width: 5px;
+    border-left: 0px;
+    width: 15%;
+    margin-left: 30%;
+}
+
+.ANACONDA_img{
+    width: 30%;
+    border: solid;
+    margin-left: 800px;
+    border-width: 5px;
+    margin-top: -20%;
+    box-shadow:
+    0 0 10px rgb(0, 0, 0),
+    0 0 20px rgb(0, 0, 0),
+    0 0 60px rgb(0, 0, 0);
+    position: absolute;
+}
+
+.ANACONDA_img:hover {
+    background-color: rgba(255, 255, 255, 0.651);   
+}
+
+
+.ANACONDA_text {
+    position: absolute;
+    color: rgb(245, 245, 245);
+    font-family: Poppins;
+    border: solid;
+    background-color: rgba(0, 0, 0, 0.671);
+    margin-top: -5%;
+    border-color: black;
+    border-width: 5px;
+    border-left: 10px;
+    width: 15%;
+    margin-left: 58%;
+}
